@@ -40,8 +40,14 @@ public class Client {
 	public void setBirthDate(Date birthDate) {
 		this.birthDate = birthDate;
 	}
+
+	@Override
+	public String toString() {
+		return "Nome =" + name + "\n" +
+				"Email=" + email + "\n" +
+				"Data de nascimento=" + birthDate;
+	}
 	
 	
 	
 }
-
